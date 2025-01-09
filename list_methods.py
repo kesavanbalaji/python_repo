@@ -51,4 +51,15 @@
 # [10, 20, 30, [40, 100], 60, 10]
 # a.count(10)
 # 2
-
+# extend()
+# --------
+# a.extend('hi')
+# a
+# [10, 20, 30, [40, 100], 60, 10, 'h', 'i']
+# a.extend(10)
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# TypeError: 'int' object is not iterable
+# a.extend([10])
+# a
+# [10, 20, 30, [40, 100], 60, 10, 'h', 'i', 10]

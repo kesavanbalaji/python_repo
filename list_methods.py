@@ -63,3 +63,21 @@
 # a.extend([10])
 # a
 # [10, 20, 30, [40, 100], 60, 10, 'h', 'i', 10]
+
+# index()
+# -------
+# >>> a
+# [10, 20, 30, [40, 100], 60, 10, 'h', 'i', 10]
+# >>> a.index(10)
+# 0
+# >>> a.index(10,2)
+# 5
+# >>> a.index(10,3)
+# 5
+# >>> a.index(100)
+# Traceback (most recent call last):
+#   File "<stdin>", line 1, in <module>
+# ValueError: 100 is not in list
+# >>> a.index([40,100])
+# 3
+
